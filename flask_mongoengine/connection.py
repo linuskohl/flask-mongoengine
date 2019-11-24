@@ -9,7 +9,12 @@ __all__ = (
 
 MONGODB_CONF_VARS = ('MONGODB_ALIAS', 'MONGODB_DB', 'MONGODB_HOST', 'MONGODB_IS_MOCK',
                      'MONGODB_PASSWORD', 'MONGODB_PORT', 'MONGODB_USERNAME',
-                     'MONGODB_CONNECT', 'MONGODB_TZ_AWARE')
+                     'MONGODB_CONNECT', 'MONGODB_TZ_AWARE', 'MONGODB_SSL',
+                     'MONGODB_SSL_CERT_REQS', 'MONGODB_SSL_CA_CERTS',
+                     'MONGODB_SSL_KEYFILE', 'MONGODB_SSL_CERTFILE',
+                     'MONGODB_SSL_CRLFILE', 'MONGODB_SSL_PEM_PASSPHRASE',
+                     'MONGODB_SSL_MATCH_HOSTNAME'
+                     )
 
 
 class InvalidSettingsError(Exception):
